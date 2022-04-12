@@ -1,0 +1,11 @@
+.wrapper {
+  &.--full {
+    max-width: $full-width;
+  }
+  max-width: $default-width;
+  margin: 0 auto;
+
+  & .wrap {
+    display: flex;
+  }
+}
